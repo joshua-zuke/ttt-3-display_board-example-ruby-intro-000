@@ -4,4 +4,3 @@ def greeting(name, x)
   end
 end
 greeting ("Josh", 3)
-
