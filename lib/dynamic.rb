@@ -1,4 +1,5 @@
-def greeting(name)
-    puts "Hello, #{name}!"
+def greeting(name, x)
+    x.times do
+      puts "Hello, #{name}!"
   end
-  greeting("Josh")
+  greeting("Josh", 3)
