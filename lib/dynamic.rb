@@ -1,6 +1,6 @@
-def say_hello_x_times(x)
+def say_anything_x_times(phrase, x)
   x.times do
-    puts "Hello World"
+    puts phrase
   end
 end
-say_hello_x_times
+say_anything_x_times(ayyyy, 10)
