@@ -3,4 +3,4 @@ def say_hello_x_times(x)
     puts "Hello World"
   end
 end
-say_hello_x_times(4)
+puts say_hello_x_times(4)
