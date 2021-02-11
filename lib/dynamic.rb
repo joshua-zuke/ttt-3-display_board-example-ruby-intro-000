@@ -1,6 +1,7 @@
-def say_anything_x_times(phrase, x)
+def greeting(name, x)
   x.times do
-    puts phrase
+    puts "Hello, #{name}!"
   end
 end
-say_anything_x_times("Josh You Are Love Embodied", 10000)
+greeting ("Josh", 3)
+
