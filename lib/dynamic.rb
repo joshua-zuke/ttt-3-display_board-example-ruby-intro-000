@@ -1,6 +1,6 @@
-def greeting(name, x)
+def greeting(name, language, x)
     x.times do
-      puts "Hello, #{name}!"
+      puts "Hello, #{name}! We heard you are a great #{language}speaker."
     end
   end
-  greeting("Josh", 3)
+  greeting("Josh", "Spanish", 3)
