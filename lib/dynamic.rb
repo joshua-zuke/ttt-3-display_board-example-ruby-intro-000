@@ -4,4 +4,3 @@ def say_hello_x_times(x)
   end
 end
 say_hello_x_times(4)
-  
